@@ -1,0 +1,2 @@
+2025-09-09 22:05:15,839 - data_ingestion - ERROR - Unexpected error occurred while saving the data: [WinError 3] The system cannot find the path specified: 'C:\\MlOps\\youtube-sentiment\\src\\data\\../../data\\raw'
+2025-09-09 22:05:15,839 - data_ingestion - ERROR - Failed to complete the data ingestion process: [WinError 3] The system cannot find the path specified: 'C:\\MlOps\\youtube-sentiment\\src\\data\\../../data\\raw'
