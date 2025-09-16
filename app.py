@@ -2,7 +2,9 @@ from flask import Flask, request, jsonify
 import os
 import joblib  # or pickle
 from src.data.data_preprocessing import preprocess_comment  # hypothetical utility
-from src.model import load_model, predict_sentiment  # utils
+#from src.model import load_model, predict_sentiment  # utils
+from src.model.model_evaluation import load_model, predict_sentiment
+
 
 app = Flask(__name__)
 
